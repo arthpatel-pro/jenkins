@@ -1,4 +1,4 @@
-﻿if (-not(Test-Path -Path 'D:\jenkins\jenkins_folder_1'))
+﻿if (-not(Test-Path -Path 'D:\jenkins\jenkins_folder_3'))
 {
-    New-Item -Path 'D:\jenkins\jenkins_folder_1' -ItemType directory
+    New-Item -Path 'D:\jenkins\jenkins_folder_3' -ItemType directory
 }
