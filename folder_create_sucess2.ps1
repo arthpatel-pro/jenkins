@@ -1,0 +1,1 @@
+﻿mkdir D:\jenkins\jenkins_folder_2
