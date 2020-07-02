@@ -3,6 +3,9 @@
   vars:
     ansible_site_path: "c:\\inetpub\\wwwroot\\ansibletest"
   tasks:
+  - name: create staging path
+    win_file: path={{ ansible_site_path }} state=directory
+    
   - name: create new website
     win_iis_website:
       name: "Ansible Test Site"
