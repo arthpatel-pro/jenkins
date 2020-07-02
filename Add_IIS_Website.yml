@@ -23,3 +23,7 @@
       protocol: Tcp
       force: true
     tags: firewall
+   - name: default-website-index
+    win_copy:
+      src: files/index.html
+      dest: "C:\\inetpub\\wwwroot\\ansibletest\\index.html"
