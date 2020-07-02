@@ -9,7 +9,7 @@
       state: started
       port: 1234
       physical_path: "{{ ansible_site_path }}"
-   - name: Open site's port on firewall
+  - name: Open site's port on firewall
     win_firewall_rule:
       name: mysite1234
       enable: yes
