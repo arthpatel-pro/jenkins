@@ -1,0 +1,9 @@
+---
+- name : "Create VM"
+  connection: local
+  hosts: all
+  tasks:
+   - name: Create a resource group
+     azure_rm_resourcegroup:
+       name: Akp-RG-Test
+       location: eastus
